@@ -54,7 +54,7 @@ def scrape_google(app_id, app_name):
         return df
 
 
-def scrape_app_store(app_name, how_many=None):
+def scrape_app_store(app_name):
     """
     Takes a string object of the filename and count of reviews as an argument.
     Scrapes all reviews in the App Store US then transforms data into a dataframe and saves a csv copy.
@@ -72,7 +72,7 @@ def scrape_app_store(app_name, how_many=None):
 
     else:
 
-        app_info.review(how_many=how_many, sleep=random.randint(30, 35))
+        app_info.review(sleep=random.randint(30, 35))
 
         # Transforms the json file into a dataframe
         df = pd.DataFrame(np.array(app_info.reviews), columns=["review"])
