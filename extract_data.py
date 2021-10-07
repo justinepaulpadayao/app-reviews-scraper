@@ -49,7 +49,7 @@ def scrape_google(app_id, app_name):
         )
 
         # Removes the header and saves the file into a csv for a local copy.
-        df.to_csv(f"{app_name} Google Play Reviews.csv", index=False)
+        df.to_csv(f"{app_name} Google Play Store Reviews.csv", index=False)
         print(f"Successfully scraped {df.shape[0]} reviews from Google Play Store")
         return df
 
