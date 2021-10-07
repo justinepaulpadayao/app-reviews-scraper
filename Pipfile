@@ -7,10 +7,9 @@ name = "pypi"
 pandas = "*"
 numpy = "*"
 app-store-scraper = "*"
-streamlit = "*"
 boto3 = "*"
 google-play-scraper = "*"
-black = "*"
+urllib3 = "*"
 
 [dev-packages]
 
