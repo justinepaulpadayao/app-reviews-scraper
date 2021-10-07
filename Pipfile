@@ -4,11 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+<<<<<<< Updated upstream
 pandas = "*"
 numpy = "*"
 google-play-scraper = "*"
 app-store-scraper = "*"
 black = "*"
+=======
+>>>>>>> Stashed changes
 
 [dev-packages]
 
