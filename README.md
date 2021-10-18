@@ -14,6 +14,6 @@ For our project, we will pull customer reviews from Google Play and Apple Store.
 
 ##### Prerequisites:
 1.) AWS account
-2.) AWS CLI installed and configured
-3.) Python
-4.) Power BI (Optional)
+<br> 2.) AWS CLI installed and configured
+<br> 3.) Python
+<br> 4.) Power BI (Optional)
