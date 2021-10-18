@@ -12,7 +12,7 @@ For our project, we will pull customer reviews from Google Play and Apple Store.
 
 ![Data Pipeline Figure](DataPipeline.png)
 
-##### Prerequisites:
+#### Prerequisites:
 1.) AWS account
 <br> 2.) AWS CLI installed and configured
 <br> 3.) Python
