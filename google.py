@@ -2,7 +2,10 @@ from botocore.retries import bucket
 import extract_data as ed
 from load import upload_to_s3
 
-app_name = input(str("Please choose application from the following: Vivint or Chime? "))
+app_name = input(
+    "Please choose application from the following: Vivint or Chime? "
+)
+
 
 if app_name == 'Vivint':
     app_id = "com.vivint.vivintsky"
